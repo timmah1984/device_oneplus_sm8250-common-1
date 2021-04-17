@@ -427,6 +427,12 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     device/oneplus/common
 
+# Sounds
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.ringtone=Ganymede.ogg \
+    ro.config.notification_sound=Carme.ogg \
+    ro.config.alarm_alert=Argon.ogg
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
