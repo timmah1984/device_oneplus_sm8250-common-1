@@ -53,6 +53,9 @@
     <!-- Whether device has notification LED -->
     <bool name="config_hasNotificationLed">false</bool>
     
+    <!-- Whether usage of the proximity sensor during doze is supported -->
+    <bool name="doze_proximity_sensor_supported">false</bool>
+    
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/battery/fastchg_status</string>
 </resources>
