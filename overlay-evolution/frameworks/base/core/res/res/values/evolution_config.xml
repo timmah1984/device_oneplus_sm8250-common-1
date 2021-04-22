@@ -39,7 +39,10 @@
 
     <!-- Whether device has a notch -->
     <bool name="config_haveNotch">true</bool>
-    
+
+    <!-- Default fod pressed color -->
+    <integer name="config_fod_pressed_color">0</integer>
+
     <!-- Show a custom view for FOD -->
     <bool name="config_needCustomFODView">true</bool>
 
