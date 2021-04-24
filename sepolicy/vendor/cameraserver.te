@@ -1,1 +1,2 @@
+allow cameraserver property_socket:sock_file write;
 binder_call(cameraserver, hal_cameraHIDL_default)

@@ -1,0 +1,2 @@
+allow untrusted_app theme_prop:file { getattr open read map };
+allow untrusted_app virtual_ab_prop:file { getattr open read map };
